@@ -1,0 +1,60 @@
+
+
+#game_container {
+    width:  960px;
+    height: 640px;
+    background-color: #333;
+}
+
+#top_bar {
+    height: 32px;
+    width:  auto;
+    background-color: #599;
+}
+.battle_window {
+    position:   relative;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.enemy_members,
+.party_members {
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.enemy_members {
+    width: 400px;
+}
+.party_members {
+    width: auto;
+}
+/* bg */
+.bg_001 {
+    background-image: url("../image/bg/bg_dote.jpg");
+    background-size: auto 100%;
+    background-repeat: repeat no-repeat;
+}
+
+
+/* party */
+.party_member,
+.enemy_member {
+    min-width: 280px;
+    height: 240px;
+    position: absolute;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.enemy_member {
+    transform: scale(-1, 1);
+}
+
+.at_gage {
+    
+    width: 200px;
+    height: 28px;
+}
